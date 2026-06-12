@@ -6,7 +6,7 @@ $personnes = [
     ],
     [
         "nom" => "Fatou",
-        "age"=> 22,
+        "age"=> 22,J
     ],
     [
         "nom" => "Moussa",
