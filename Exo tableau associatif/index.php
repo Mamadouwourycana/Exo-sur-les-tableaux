@@ -10,7 +10,7 @@ $sommeNotes = 0;
 $nombreEtudiants = count($etudiants);
 $meilleursEtudiant = $etudiants[0];
 echo "Liste des étudiants et leurs notes :\n";
-foreach ($etudiants as $etudiant) {
+foreach ($etudiants as $etudiant) { 
     $sommeNotes += $etudiant["note"];
     echo "Nom : " . $etudiant["nom"] . " - Note : " . $etudiant["note"] . "\n";
     if ($etudiant["note"] >= 10 ) 
